@@ -1,0 +1,16 @@
+.ImageInputList {
+  @apply flex flex-row items-start;
+  @apply pr-3;
+}
+
+.Primary {
+  @apply pt-8;
+  @apply justify-between gap-10 flex-wrap;
+}
+
+/* 스크롤이 바로 오른쪽으로 가게 할 수 있으면 좋을듯 하다. */
+.Small {
+  @apply overflow-x-auto;
+  @apply gap-7;
+  @apply py-1;
+}

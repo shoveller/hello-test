@@ -1,0 +1,83 @@
+.Button {
+  @apply flex flex-row justify-center items-center;
+  @apply font-medium;
+}
+
+.Primary {
+  @apply text-white bg-green-500 hover:bg-green-500;
+}
+
+.White {
+  @apply bg-white;
+}
+
+.Outline {
+  @apply bg-white border;
+}
+
+.Disabled {
+  @apply border-black;
+  @apply cursor-not-allowed;
+}
+
+.StyleXxs {
+  @apply rounded gap-2;
+  @apply text-xs;
+}
+
+.StyleXs {
+  @apply rounded gap-2;
+  @apply leading-4 text-xs;
+}
+
+.StyleSm {
+  @apply rounded-md gap-2;
+  @apply leading-4 text-sm;
+}
+
+.StyleBase {
+  @apply rounded-md gap-2;
+  @apply leading-5 text-sm;
+}
+
+.StyleL {
+  @apply rounded-md gap-3;
+  @apply leading-6 text-base;
+}
+
+.StyleXl {
+  @apply rounded-md gap-3;
+  @apply leading-6 text-base;
+}
+
+.PaddingXxs {
+  @apply px-4 py-3;
+}
+
+.PaddingXs {
+  @apply px-4 py-3;
+}
+
+.PaddingSm {
+  @apply px-4 py-3;
+}
+
+.PaddingBase {
+  @apply px-4 py-3;
+}
+
+.PaddingL {
+  @apply px-4 py-3;
+}
+
+.PaddingXl {
+  @apply px-4 py-3;
+}
+
+.IconOnlyPadding {
+  @apply px-4 py-3;
+}
+
+.TextStyle {
+  @apply px-4 py-3;
+}
